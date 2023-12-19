@@ -1,0 +1,16 @@
+<tr>
+  <app-table-cell [checkbox]=false [waarde]="koppeling.naam"/>
+  <app-table-cell [checkbox]=false [waarde]="koppeling.url"/>
+  <app-table-cell [checkbox]=false [waarde]="koppeling.agb"/>
+  <app-table-cell [checkbox]=false [waarde]="koppeling.ketenzorgtype"/>
+  <app-table-cell [checkbox]=false [style.background-color]="koppeling.kleur" [waarde]="koppeling.kleur"/>
+  <app-table-cell [checkbox]=false [waarde]="koppeling.faIcoon"/>
+  <app-table-cell [checkbox]=false [waarde]="koppeling.logoPad"/>
+  <app-table-cell [checkbox]=false [waarde]="koppeling.volgorde"/>
+  <app-table-cell [checkbox]=false [waarde]="koppeling.permissie"/>
+  <app-table-cell [checkbox]=true [waarde]="koppeling.opActiepagina"/>
+  <td><button (click)="openEditModal()">
+    <fa-icon [icon]="faPenSquare"></fa-icon>
+  </button>
+  </td>
+</tr>

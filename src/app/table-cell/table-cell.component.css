@@ -1,0 +1,19 @@
+td {
+  text-align: left;
+  width:5rem;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  align-self: flex-start;
+  max-width: 5rem;
+  display: inline-block;
+  cursor: text;
+}
+input{
+  border-style:none;
+}
+input:hover{
+  font-style: italic;
+}
+

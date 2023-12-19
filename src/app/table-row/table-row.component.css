@@ -1,0 +1,22 @@
+tr {
+  white-space: nowrap;
+  max-width: 100%;
+  display: inline-block;
+  align-self: flex-start;
+
+}
+tr:hover{
+  color:grey;
+}
+td {
+  text-align: left;
+  width:2rem;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  align-self: flex-start;
+  max-width: 5rem;
+  display: inline-block;
+
+}

@@ -1,0 +1,22 @@
+<form>
+<div class="modal">
+  <div class="modal-content">
+    <div><label for="naam">naam</label><input id="naam" name="naam" [(ngModel)]="koppeling.naam" value="{{koppeling.naam}}"></div>
+    <div><label for="url">url</label><input id="url" name="url" [(ngModel)]="koppeling.url" value="{{koppeling.url}}"></div>
+    <div><label for="agb">agb</label><input id="agb" name="agb" [(ngModel)]="koppeling.agb" value="{{koppeling.agb}}"></div>
+    <div><label for="ketenzorgtype">ketenzorgtype</label><input id="ketenzorgtype" name="ketenzorgtype" [(ngModel)]="koppeling.ketenzorgtype" value="{{koppeling.ketenzorgtype}}"></div>
+    <div><label for="kleur">kleur</label><input id="kleur" name="kleur" [(ngModel)]="koppeling.kleur" value="{{koppeling.kleur}}"></div>
+    <div><label for="faIcoon">faIcoon</label><input id="faIcoon" name="faIcoon" [(ngModel)]="koppeling.faIcoon" value="{{koppeling.faIcoon}}"></div>
+    <div><label for="logoPad">logoPad</label><input id="logoPad" name="logoPad" [(ngModel)]="koppeling.logoPad" value="{{koppeling.logoPad}}"></div>
+    <div><label for="volgorde">volgorde</label><input id="volgorde" name="volgorde" [(ngModel)]="koppeling.volgorde" value="{{koppeling.volgorde}}"></div>
+    <div><label for="permissie">permissie</label><input id="permissie" name="permissie" [(ngModel)]="koppeling.permissie" value="{{koppeling.permissie}}"></div>
+
+    <div>
+      <button (click)="modalClosed()" class="save">Opslaan</button>
+    </div> <div>
+      <button (click)="modalClosed()" class="close">Sluiten</button>
+    </div>
+  </div>
+
+</div>
+</form>

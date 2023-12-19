@@ -1,0 +1,8 @@
+table{
+  width:100%;
+  max-width: 1000px;
+  overflow-x: clip;
+  table-layout: fixed;
+  margin: 0 auto;
+
+}

@@ -1,0 +1,10 @@
+<table>
+  <thead>
+  <app-table-header/>
+  </thead>
+  <tbody>
+  <app-table-row *ngFor="let koppeling of koppelingen; index as i" [koppeling]="koppeling"
+                 (modalOpened)="propagateEditModal(koppelingen[i])"/>
+  </tbody>
+
+</table>

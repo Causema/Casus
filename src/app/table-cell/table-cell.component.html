@@ -1,0 +1,2 @@
+<td *ngIf="!checkbox;else renderCheckbox">{{waarde}}</td>
+<ng-template #renderCheckbox><td><input type="checkbox" [checked]=waarde></td></ng-template>
